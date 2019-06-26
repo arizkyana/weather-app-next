@@ -1,11 +1,10 @@
 import WithNavbar from '../layouts/WithNavbar'
 import Header from '../components/Head'
-import Alert from '../components/Alert'
 
 import React from 'react'
 import consola from 'consola'
 import _ from 'lodash'
-import Router from 'next/router'
+import { withRouter } from 'next/router';
 
 import { forecast } from '../helpers/request'
 
@@ -95,28 +94,34 @@ class Index extends React.Component {
               ]
           }
       },
-      favorite: [],
+      favorite: 0,
       error: null
   };
 
-  this.addToFavorite = this.addToFavorite.bind(this)
-
  }
 
- componentDidMount() {
-     consola.info('query', this.props.url)
- }
+ async componentDidMount() {
 
+
+     if (this.props.router.query.city){
+
+        await this.requestForecast(this.props.router.query.city)
+     }
+ }
     getForecast = async (e) => {
      e.preventDefault();
      consola.info('your city', this.state.city);
 
+     await this.requestForecast(this.state.city)
+ };
+
+ requestForecast = async (city) => {
      this.setState({loading: true});
 
      const getForecast = await forecast({
          method: 'GET',
          params: {
-             q: this.state.city
+             q: city
          }
      });
 
@@ -136,7 +141,9 @@ class Index extends React.Component {
          this.setState({error: `${city} has been added to favorite`})
      } else {
          await favorite.store.dispatch(favorite.action.addToFavorite(city));
-         consola.info('current favorite', favorite.store.getState())
+         consola.info('current favorite', favorite.store.getState());
+
+         this.setState({favorite: favorite.store.getState().length})
      }
  };
 
@@ -150,20 +157,20 @@ class Index extends React.Component {
              )
          } else {
              return (
-                 <small className="text-red-500"></small>
+                 <small className="text-red-500">&nbsp;</small>
              )
          }
      };
   return(
-   <div className="container mx-auto">
+   <WithNavbar favorite={this.state.favorite} className="">
        <Header title="Search city"/>
 
        <form className="flex" onSubmit={this.getForecast.bind(this)}>
            <div className="flex-auto w-3/4">
-               <input onChange={this.changeCity.bind(this)} type="text" className="bg-white border border-gray-300 rounded py-2 px-4 block w-full appearance-none leading-normal" placeholder="Type city name, example: Bandung" />
+               <input onChange={this.changeCity.bind(this)} type="text" className="bg-white focus:outline-none border border-gray-300 rounded py-2 px-4 block w-full appearance-none leading-normal" placeholder="Type city name, example: Bandung" />
            </div>
            <div className="flex-auto w-1/4 px-1 ">
-               <button  type="submit" className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+               <button  type="submit" className="w-full bg-blue-500 focus:outline-none hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                    { this.state.loading ? 'Loading...' : 'Get forecast' }
                </button>
            </div>
@@ -229,9 +236,11 @@ class Index extends React.Component {
 
 
 
-   </div>
+   </WithNavbar>
   )
  }
 }
 
-export default WithNavbar(Index)
+export default withRouter(props => (
+    <Index router={props.router}/>
+))

@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'next/link'
 
 import WithNavbar from '../layouts/WithNavbar'
 import Header from '../components/Head'
+import ListFavorite from '../components/ListFavorite'
 
 import favorite from '../store/favorite'
 
@@ -24,38 +24,14 @@ class Favorite extends React.Component {
     }
 
     render() {
-        const ListFavorite = () => {
-            if (!this.state.favorites) {
-                return (
-                    <div>
-                        <p className="text-red-500">Favorite is empty</p>
-                    </div>
-                )
-            } else {
 
-                return this.state.favorites.map((f, i) => (
-                    <Link key={i} href={{
-                        pathname: 'index',
-                        query: {
-                            city: f.city
-                        }
-                    }}>
-                        <div
-                            className="border mt-1 border-gray-500 px-3 py-3 cursor-pointer hover:bg-teal-500 hover:border-teal-500 hover:text-white">
-                            <h1>{f.city}</h1>
-                        </div>
-                    </Link>
-                ));
-            }
-
-        };
         return (
-            <div className="px-6">
+            <WithNavbar className="px-6">
                 <Header title="Favorites"/>
-                <ListFavorite/>
-            </div>
+                <ListFavorite favs={this.state.favorites}/>
+            </WithNavbar>
         )
     }
 }
 
-export default WithNavbar(Favorite)
+export default Favorite

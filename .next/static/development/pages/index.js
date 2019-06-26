@@ -1,106 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/Alert.js":
-/*!*****************************!*\
-  !*** ./components/Alert.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-
-
-
-
-
-var _jsxFileName = "/Users/agungrizkyana/Public/myproject/learn-next/weather-app/components/Alert.js";
-
-
-var Alert =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Alert, _React$Component);
-
-  function Alert(props) {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Alert);
-
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Alert).call(this, props));
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Alert, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "fixed top-0 left-0 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative",
-        role: "alert",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
-        className: "font-bold",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, this.props.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "block sm:inline",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, this.props.message), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "absolute top-0 bottom-0 right-0 px-4 py-3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("svg", {
-        className: "fill-current h-6 w-6 text-red-500",
-        role: "button",
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 20 20",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, "Close"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("path", {
-        d: "M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }))));
-    }
-  }]);
-
-  return Alert;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Alert);
-
-/***/ }),
-
 /***/ "./components/Head.js":
 /*!****************************!*\
   !*** ./components/Head.js ***!
@@ -124,7 +23,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/agungrizkyana/Public/myproject/learn-next/weather-app/components/Head.js";
 
 
 
@@ -142,32 +40,9 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, "Weather app - ", this.props.title || ''), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", null, "Weather app - ", this.props.title || ''), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
         name: "viewport",
-        content: "initial-scale=1.0, width=device-width",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
+        content: "initial-scale=1.0, width=device-width"
       })));
     }
   }]);
@@ -249,133 +124,167 @@ var forecast = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.css */ "./styles/index.css");
-/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/agungrizkyana/Public/myproject/learn-next/weather-app/layouts/WithNavbar.js";
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/index.css */ "./styles/index.css");
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var consola__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! consola */ "./node_modules/consola/dist/consola.browser.js");
+/* harmony import */ var consola__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(consola__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _store_favorite__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../store/favorite */ "./store/favorite/index.js");
 
 
 
 
-var WithNavbar = function WithNavbar(Page) {
-  return function () {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-      className: "flex items-center justify-between flex-wrap bg-teal-500 p-4",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "flex items-center flex-shrink-0 text-white mr-6",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "font-semibold text-xl tracking-tight cursor-pointer",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    }, "Weather app"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "block lg:hidden",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      className: "flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-      className: "fill-current h-3 w-3",
-      viewBox: "0 0 20 20",
-      xmlns: "http://www.w3.org/2000/svg",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, "Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-      d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21
-      },
-      __self: this
-    })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "w-full block flex-grow lg:flex lg:items-center lg:w-auto",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "text-sm lg:flex-grow",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/favorite",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      className: "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }, "Favorites"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "pt-6 px-2",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Page, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40
-      },
-      __self: this
+
+
+
+
+
+
+
+
+
+
+
+var WithNavbar =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(WithNavbar, _React$Component);
+
+  function WithNavbar(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, WithNavbar);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(WithNavbar).call(this, props));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "getCountFavorite",
+    /*#__PURE__*/
+    Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+    /*#__PURE__*/
+    _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var favorites;
+      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return _store_favorite__WEBPACK_IMPORTED_MODULE_13__["default"].store.getState();
+
+            case 2:
+              favorites = _context.sent;
+
+              _this.setState({
+                countFavorites: favorites ? favorites.length : 0
+              });
+
+              consola__WEBPACK_IMPORTED_MODULE_12___default.a.info('current favorites navbar ==>> ', favorites);
+
+            case 5:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
     })));
-  };
-};
+
+    _this.state = {
+      countFavorites: 0
+    };
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(WithNavbar, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+        var _this2 = this;
+
+        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
+                return this.getCountFavorite();
+
+              case 2:
+                _store_favorite__WEBPACK_IMPORTED_MODULE_13__["default"].store.subscribe(function () {
+                  consola__WEBPACK_IMPORTED_MODULE_12___default.a.info('update state', _store_favorite__WEBPACK_IMPORTED_MODULE_13__["default"].store.getState());
+                  var favorites = _store_favorite__WEBPACK_IMPORTED_MODULE_13__["default"].store.getState();
+
+                  _this2.setState({
+                    countFavorites: favorites ? favorites.length : 0
+                  });
+                });
+
+              case 3:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }() // async componentDidUpdate(prevProps, prevState, snapshot) {
+    //     await this.getCountFavorite()
+    // }
+
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("nav", {
+        className: "flex items-center justify-between flex-wrap bg-teal-500 p-4"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex items-center flex-shrink-0 text-white mr-6"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("span", {
+        className: "font-semibold text-xl tracking-tight cursor-pointer"
+      }, "Weather app"))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "block lg:hidden"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("button", {
+        className: "flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("svg", {
+        className: "fill-current h-3 w-3",
+        viewBox: "0 0 20 20",
+        xmlns: "http://www.w3.org/2000/svg"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("title", null, "Menu"), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("path", {
+        d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+      })))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "text-sm lg:flex-grow"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/favorite"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("a", {
+        className: "block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+      }, "Favorites (", this.state.countFavorites, ")"))))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "pt-6 px-2"
+      }, this.props.children));
+    }
+  }]);
+
+  return WithNavbar;
+}(react__WEBPACK_IMPORTED_MODULE_11___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (WithNavbar);
 
@@ -30825,17 +30734,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _layouts_WithNavbar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../layouts/WithNavbar */ "./layouts/WithNavbar.js");
 /* harmony import */ var _components_Head__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Head */ "./components/Head.js");
-/* harmony import */ var _components_Alert__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Alert */ "./components/Alert.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var consola__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! consola */ "./node_modules/consola/dist/consola.browser.js");
-/* harmony import */ var consola__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(consola__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _helpers_request__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../helpers/request */ "./helpers/request.js");
-/* harmony import */ var _store_favorite__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../store/favorite */ "./store/favorite/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var consola__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! consola */ "./node_modules/consola/dist/consola.browser.js");
+/* harmony import */ var consola__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(consola__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _helpers_request__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../helpers/request */ "./helpers/request.js");
+/* harmony import */ var _store_favorite__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../store/favorite */ "./store/favorite/index.js");
 
 
 
@@ -30844,8 +30752,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-var _jsxFileName = "/Users/agungrizkyana/Public/myproject/learn-next/weather-app/pages/index.js";
 
 
 
@@ -30874,35 +30780,16 @@ function (_React$Component) {
       var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
       /*#__PURE__*/
       _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(e) {
-        var getForecast;
         return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 e.preventDefault();
-                consola__WEBPACK_IMPORTED_MODULE_13___default.a.info('your city', _this.state.city);
+                consola__WEBPACK_IMPORTED_MODULE_12___default.a.info('your city', _this.state.city);
+                _context.next = 4;
+                return _this.requestForecast(_this.state.city);
 
-                _this.setState({
-                  loading: true
-                });
-
-                _context.next = 5;
-                return Object(_helpers_request__WEBPACK_IMPORTED_MODULE_16__["forecast"])({
-                  method: 'GET',
-                  params: {
-                    q: _this.state.city
-                  }
-                });
-
-              case 5:
-                getForecast = _context.sent;
-
-                _this.setState({
-                  forecast: getForecast.data,
-                  loading: false
-                });
-
-              case 7:
+              case 4:
               case "end":
                 return _context.stop();
             }
@@ -30912,6 +30799,50 @@ function (_React$Component) {
 
       return function (_x) {
         return _ref.apply(this, arguments);
+      };
+    }());
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "requestForecast",
+    /*#__PURE__*/
+    function () {
+      var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2(city) {
+        var getForecast;
+        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _this.setState({
+                  loading: true
+                });
+
+                _context2.next = 3;
+                return Object(_helpers_request__WEBPACK_IMPORTED_MODULE_15__["forecast"])({
+                  method: 'GET',
+                  params: {
+                    q: city
+                  }
+                });
+
+              case 3:
+                getForecast = _context2.sent;
+
+                _this.setState({
+                  forecast: getForecast.data,
+                  loading: false
+                });
+
+              case 5:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }));
+
+      return function (_x2) {
+        return _ref2.apply(this, arguments);
       };
     }());
 
@@ -30925,53 +30856,57 @@ function (_React$Component) {
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "addToFavorite",
     /*#__PURE__*/
     function () {
-      var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      var _ref3 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
       /*#__PURE__*/
-      _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2(city) {
+      _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3(city) {
         var find;
-        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
           while (1) {
-            switch (_context2.prev = _context2.next) {
+            switch (_context3.prev = _context3.next) {
               case 0:
-                _context2.next = 2;
-                return lodash__WEBPACK_IMPORTED_MODULE_14___default.a.find(_store_favorite__WEBPACK_IMPORTED_MODULE_17__["default"].store.getState(), {
+                _context3.next = 2;
+                return lodash__WEBPACK_IMPORTED_MODULE_13___default.a.find(_store_favorite__WEBPACK_IMPORTED_MODULE_16__["default"].store.getState(), {
                   city: city
                 });
 
               case 2:
-                find = _context2.sent;
+                find = _context3.sent;
 
                 if (!find) {
-                  _context2.next = 8;
+                  _context3.next = 8;
                   break;
                 }
 
-                consola__WEBPACK_IMPORTED_MODULE_13___default.a.info("".concat(city, " has been added to favorite"));
+                consola__WEBPACK_IMPORTED_MODULE_12___default.a.info("".concat(city, " has been added to favorite"));
 
                 _this.setState({
                   error: "".concat(city, " has been added to favorite")
                 });
 
-                _context2.next = 11;
+                _context3.next = 12;
                 break;
 
               case 8:
-                _context2.next = 10;
-                return _store_favorite__WEBPACK_IMPORTED_MODULE_17__["default"].store.dispatch(_store_favorite__WEBPACK_IMPORTED_MODULE_17__["default"].action.addToFavorite(city));
+                _context3.next = 10;
+                return _store_favorite__WEBPACK_IMPORTED_MODULE_16__["default"].store.dispatch(_store_favorite__WEBPACK_IMPORTED_MODULE_16__["default"].action.addToFavorite(city));
 
               case 10:
-                consola__WEBPACK_IMPORTED_MODULE_13___default.a.info('current favorite', _store_favorite__WEBPACK_IMPORTED_MODULE_17__["default"].store.getState());
+                consola__WEBPACK_IMPORTED_MODULE_12___default.a.info('current favorite', _store_favorite__WEBPACK_IMPORTED_MODULE_16__["default"].store.getState());
 
-              case 11:
+                _this.setState({
+                  favorite: _store_favorite__WEBPACK_IMPORTED_MODULE_16__["default"].store.getState().length
+                });
+
+              case 12:
               case "end":
-                return _context2.stop();
+                return _context3.stop();
             }
           }
-        }, _callee2);
+        }, _callee3);
       }));
 
-      return function (_x2) {
-        return _ref2.apply(this, arguments);
+      return function (_x3) {
+        return _ref3.apply(this, arguments);
       };
     }());
 
@@ -31053,18 +30988,44 @@ function (_React$Component) {
           }]
         }
       },
-      favorite: [],
+      favorite: 0,
       error: null
     };
-    _this.addToFavorite = _this.addToFavorite.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
     return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Index, [{
     key: "componentDidMount",
-    value: function componentDidMount() {
-      consola__WEBPACK_IMPORTED_MODULE_13___default.a.info('query', this.props.url);
-    }
+    value: function () {
+      var _componentDidMount = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4() {
+        return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                if (!this.props.router.query.city) {
+                  _context4.next = 3;
+                  break;
+                }
+
+                _context4.next = 3;
+                return this.requestForecast(this.props.router.query.city);
+
+              case 3:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
   }, {
     key: "render",
     value: function render() {
@@ -31072,288 +31033,94 @@ function (_React$Component) {
 
       var ErrorMessage = function ErrorMessage() {
         if (_this2.state.error) {
-          return react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-            className: "mt-3",
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 147
-            },
-            __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("small", {
-            className: "text-red-500",
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 148
-            },
-            __self: this
+          return react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+            className: "mt-3"
+          }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("small", {
+            className: "text-red-500"
           }, _this2.state.error));
         } else {
-          return react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("small", {
-            className: "text-red-500",
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 153
-            },
-            __self: this
-          });
+          return react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("small", {
+            className: "text-red-500"
+          }, "\xA0");
         }
       };
 
-      return react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "container mx-auto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 158
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_components_Head__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        title: "Search city",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("form", {
+      return react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(_layouts_WithNavbar__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        favorite: this.state.favorite,
+        className: ""
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(_components_Head__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        title: "Search city"
+      }), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("form", {
         className: "flex",
-        onSubmit: this.getForecast.bind(this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 161
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "flex-auto w-3/4",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("input", {
+        onSubmit: this.getForecast.bind(this)
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex-auto w-3/4"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("input", {
         onChange: this.changeCity.bind(this),
         type: "text",
-        className: "bg-white border border-gray-300 rounded py-2 px-4 block w-full appearance-none leading-normal",
-        placeholder: "Type city name, example: Bandung",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "flex-auto w-1/4 px-1 ",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("button", {
+        className: "bg-white focus:outline-none border border-gray-300 rounded py-2 px-4 block w-full appearance-none leading-normal",
+        placeholder: "Type city name, example: Bandung"
+      })), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex-auto w-1/4 px-1 "
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("button", {
         type: "submit",
-        className: "w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166
-        },
-        __self: this
-      }, this.state.loading ? 'Loading...' : 'Get forecast'))), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "bg-white rounded-lg",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 172
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "flex",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 174
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "text-center w-full",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("h1", {
-        className: "text-6xl align-middle",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 177
-        },
-        __self: this
-      }, this.state.forecast.location.name), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "text-4xl",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 178
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("span", {
-        className: "text-gray-600",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 178
-        },
-        __self: this
-      }, this.state.forecast.current.temp_c, " \xB0")))), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "flex mt-3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 184
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-1/2 ",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 185
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("img", {
+        className: "w-full bg-blue-500 focus:outline-none hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      }, this.state.loading ? 'Loading...' : 'Get forecast'))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "bg-white rounded-lg"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "text-center w-full"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("h1", {
+        className: "text-6xl align-middle"
+      }, this.state.forecast.location.name), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "text-4xl"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("span", {
+        className: "text-gray-600"
+      }, this.state.forecast.current.temp_c, " \xB0")))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex mt-3"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-1/2 "
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("img", {
         className: "float-right align-middle",
         src: this.state.forecast.current.condition.icon,
-        alt: "icon.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 186
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-1/2 py-5 ",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 188
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("span", {
-        className: "align-middle",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 189
-        },
-        __self: this
-      }, this.state.forecast.current.condition.text))), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "flex",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 193
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-full text-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 194
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("button", {
+        alt: "icon.png"
+      })), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-1/2 py-5 "
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("span", {
+        className: "align-middle"
+      }, this.state.forecast.current.condition.text))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-full text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("button", {
         onClick: function onClick() {
           return _this2.addToFavorite(_this2.state.forecast.location.name);
         },
         type: "button",
-        className: "px-2 py-2 rounded focus:outline-none hover:bg-green-600 border border-green-500 bg-green-500 text-white",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 195
-        },
-        __self: this
-      }, "Add to favorite"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(ErrorMessage, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 196
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "flex mt-6",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 201
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-1/4  h-12  text-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 202
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 203
-        },
-        __self: this
-      }, "Wind"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 204
-        },
-        __self: this
-      }, this.state.forecast.current.wind_mph, " mph")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-1/4  h-12  text-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 208
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 209
-        },
-        __self: this
-      }, "Pressure"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 210
-        },
-        __self: this
-      }, this.state.forecast.current.pressure_in, " bar")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-1/4  h-12  text-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 214
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 215
-        },
-        __self: this
-      }, "Humidity"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 216
-        },
-        __self: this
-      }, this.state.forecast.current.humidity, " %")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        className: "w-1/4  h-12  text-center",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 220
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 221
-        },
-        __self: this
-      }, "Feels like"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 222
-        },
-        __self: this
-      }, this.state.forecast.current.feelslike_c, " \xB0")))));
+        className: "px-2 py-2 rounded focus:outline-none hover:bg-green-600 border border-green-500 bg-green-500 text-white"
+      }, "Add to favorite"), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(ErrorMessage, null))), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "flex mt-6"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-1/4  h-12  text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("p", null, "Wind"), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", null, this.state.forecast.current.wind_mph, " mph")), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-1/4  h-12  text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("p", null, "Pressure"), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", null, this.state.forecast.current.pressure_in, " bar")), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-1/4  h-12  text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("p", null, "Humidity"), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", null, this.state.forecast.current.humidity, " %")), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
+        className: "w-1/4  h-12  text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("p", null, "Feels like"), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", null, this.state.forecast.current.feelslike_c, " \xB0")))));
     }
   }]);
 
   return Index;
-}(react__WEBPACK_IMPORTED_MODULE_12___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_11___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_layouts_WithNavbar__WEBPACK_IMPORTED_MODULE_9__["default"])(Index));
+/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_14__["withRouter"])(function (props) {
+  return react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(Index, {
+    router: props.router
+  });
+}));
 
 /***/ }),
 
@@ -31438,7 +31205,7 @@ store.subscribe(function () {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fagungrizkyana%2FPublic%2Fmyproject%2Flearn-next%2Fweather-app%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************************************/
@@ -31461,5 +31228,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
